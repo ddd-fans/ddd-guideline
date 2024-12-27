@@ -16,8 +16,36 @@ export default defineConfig({
       {
         text: '目录',
         items: [
-          { text: '指南', link: '/main' },
+          { text: '总览', link: '/main' },
           { text: 'DDD历史', link: '/history' },
+          { 
+            text: '建模', 
+            link: '/modeling',
+            items: [
+              {
+                text: "事件风暴",
+                link: "/modeling/event-storming"
+              }
+            ]
+          },
+          { 
+            text: '实现', 
+            link: '/impl',
+            items: [
+              {
+                text: "架构模式",
+                link: "/impl/arch-pattern"
+              },
+              {
+                text: "java",
+                link: "/impl/java"
+              },
+              {
+                text: "go",
+                link: "/impl/go"
+              }
+            ]
+          },
         ]
       }
     ],
