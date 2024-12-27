@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "领域驱动设计指南",
   description: "与时俱进的DDD实践指南",
+  base: "/ddd-guideline/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
