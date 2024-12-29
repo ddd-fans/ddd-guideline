@@ -51,7 +51,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/ddd-fans/ddd-guideline' }
     ]
   }
 })
