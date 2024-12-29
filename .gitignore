@@ -1,2 +1,15 @@
+# Dependency directoriesl
 node_modules
+
+# IntelliJ based IDEs
+.idea/
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# custom
 docs/.vitepress/cache
