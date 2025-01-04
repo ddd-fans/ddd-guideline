@@ -23,6 +23,36 @@ export default defineConfig({
             link: '/modeling',
             items: [
               {
+                text: "面向对象领域模型",
+                link: "/modeling/oo",
+                items: [
+                  {
+                    text: "领域事件",
+                    link: "/modeling/oo/domain-event"
+                  },
+                  {
+                    text: "领域命令",
+                    link: "/modeling/oo/domain-command"
+                  },
+                  {
+                    text: "聚合",
+                    link: "/modeling/oo/domain-aggregate"
+                  },
+                  {
+                    text: "实体",
+                    link: "/modeling/oo/domain-entity"
+                  },
+                  {
+                    text: "值对象",
+                    link: "/modeling/oo/domain-valueobject"
+                  },
+                  {
+                    text: "领域服务",
+                    link: "/modeling/oo/domain-service"
+                  }
+                ]
+              },
+              {
                 text: "事件风暴",
                 link: "/modeling/event-storming"
               }
@@ -34,15 +64,53 @@ export default defineConfig({
             items: [
               {
                 text: "架构模式",
-                link: "/impl/arch-pattern"
+                link: "/impl/arch-pattern",
+                items: [
+                  {
+                    text: "端口适配器",
+                    link: "/impl/arch-pattern/ports-and-adapters"
+                  },
+                  {
+                    text: "命令与查询职责分离",
+                    link: "/impl/arch-pattern/cqrs"
+                  },
+                  {
+                    text: "事件溯源",
+                    link: "/impl/arch-pattern/event-sourcing"
+                  },
+                ]
               },
               {
-                text: "java",
-                link: "/impl/java"
+                text: "领域对象",
+                link: "/impl/domain-objects",
+                items: [
+                  {
+                    text: "命令",
+                    link: "/impl/domain-objects/command"
+                  },
+                  {
+                    text: "聚合",
+                    link: "/impl/domain-objects/agg"
+                  },
+                  {
+                    text: "仓储",
+                    link: "/impl/domain-objects/repo"
+                  },
+                ]
               },
               {
-                text: "go",
-                link: "/impl/go"
+                text: "技术栈",
+                link: "/impl/tech",
+                items: [
+                  {
+                    text: "java",
+                    link: "/impl/tech/java"
+                  },
+                  {
+                    text: "go",
+                    link: "/impl/tech/go"
+                  }
+                ]
               }
             ]
           },
