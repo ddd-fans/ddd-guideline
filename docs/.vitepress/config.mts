@@ -78,6 +78,22 @@ export default defineConfig({
                     text: "事件溯源",
                     link: "/impl/arch-pattern/event-sourcing"
                   },
+                  {
+                    text: "ORM",
+                    link: "/impl/arch-pattern/orm"
+                  },
+                  {
+                    text: "事务",
+                    link: "/impl/arch-pattern/transaction"
+                  },
+                  {
+                    text: "发件箱",
+                    link: "/impl/arch-pattern/outbox"
+                  },
+                  {
+                    text: "四层架构",
+                    link: "/impl/arch-pattern/four-layer"
+                  },
                 ]
               },
               {
