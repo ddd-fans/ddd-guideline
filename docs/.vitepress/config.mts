@@ -94,12 +94,24 @@ export default defineConfig({
                     text: "四层架构",
                     link: "/impl/arch-pattern/four-layer"
                   },
+                  {
+                    text: "流程管理(SAGA)",
+                    link: "/impl/arch-pattern/process-manager"
+                  },
                 ]
               },
               {
                 text: "领域对象",
                 link: "/impl/domain-objects",
                 items: [
+                  {
+                    text: "值对象",
+                    link: "/impl/domain-objects/value-object"
+                  },
+                  {
+                    text: "领域事件",
+                    link: "/impl/domain-objects/domain-event"
+                  },
                   {
                     text: "命令",
                     link: "/impl/domain-objects/command"
@@ -109,8 +121,20 @@ export default defineConfig({
                     link: "/impl/domain-objects/agg"
                   },
                   {
+                    text: "服务",
+                    link: "/impl/domain-objects/service"
+                  },
+                  {
+                    text: "工厂",
+                    link: "/impl/domain-objects/factory"
+                  },
+                  {
                     text: "仓储",
                     link: "/impl/domain-objects/repo"
+                  },
+                  {
+                    text: "监听器",
+                    link: "/impl/domain-objects/policy"
                   },
                 ]
               },
