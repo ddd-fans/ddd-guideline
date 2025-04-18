@@ -49,6 +49,10 @@ export default defineConfig({
                   {
                     text: "领域服务",
                     link: "/modeling/oo/domain-service"
+                  },
+                  {
+                    text: "流程管理器(SAGA)",
+                    link: "/modeling/oo/process-manager"
                   }
                 ]
               },
@@ -93,10 +97,6 @@ export default defineConfig({
                   {
                     text: "四层架构",
                     link: "/impl/arch-pattern/four-layer"
-                  },
-                  {
-                    text: "流程管理(SAGA)",
-                    link: "/impl/arch-pattern/process-manager"
                   },
                 ]
               },
