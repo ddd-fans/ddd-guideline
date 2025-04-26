@@ -83,6 +83,10 @@ export default defineConfig({
                     link: "/impl/arch-pattern/event-sourcing"
                   },
                   {
+                    text: "LMAX",
+                    link: "/impl/arch-pattern/lmax"
+                  },
+                  {
                     text: "ORM",
                     link: "/impl/arch-pattern/orm"
                   },
