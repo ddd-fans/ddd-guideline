@@ -147,8 +147,30 @@ export default defineConfig({
                 link: "/impl/tech",
                 items: [
                   {
-                    text: "java",
-                    link: "/impl/tech/java"
+                    text: "jvm",
+                    link: "/impl/tech/jvm",
+                    items: [
+                      {
+                        text: "java",
+                        link: "/impl/tech/jvm/java",
+                        items: [
+                          {
+                            text: "值对象",
+                            link: "/impl/tech/jvm/java/value-object"
+                          }
+                        ]
+                      },
+                      {
+                        text: "kotlin",
+                        link: "/impl/tech/jvm/kotlin",
+                        items: [
+                          {
+                            text: "值对象",
+                            link: "/impl/tech/jvm/kotlin/value-object"
+                          }
+                        ]
+                      },
+                    ]
                   },
                   {
                     text: "go",
